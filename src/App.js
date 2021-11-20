@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import BackgroundMP4 from './assets/kingblck-background.mp4';
+import BackgroundWebM from './assets/kingblck-background.webm';
+import Skull from './assets/kingblck-skull.png';
+//import TextField from '@mui/material';
 import './App.css';
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <video preload="auto" muted autoPlay loop id="background-video">
+        <source src={BackgroundWebM} type="video/webm" />
+        <source src={BackgroundMP4} type="video/mp4" />
+      </video>
+      <div className="content">
+        <img src={Skull} alt="King Blck logo" />
+      </div>
     </div>
   );
 }
