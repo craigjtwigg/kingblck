@@ -31,7 +31,8 @@ import React from 'react'
     render() {
       const { email } = this.state;
       return (
-        <form netlify netlify-honeypot="bot-field" hidden onSubmit={this.handleSubmit}>
+        <form name="contact" netlify netlify-honeypot="bot-field" hidden onSubmit={this.handleSubmit}>
+             <input type="hidden" name="form-name" value="contact" />
           <p>
               <input placeholder="youremail@kingblck.com" type="email" name="email" value={email} onChange={this.handleChange} />
           </p>
