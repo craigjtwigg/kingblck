@@ -61,7 +61,6 @@ input:focus {
 }
 
 button {
-  width: 20vw;
   font-size: 1.2rem;
   cursor: pointer;
   padding: 1rem;
