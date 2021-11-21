@@ -20,7 +20,7 @@ import React from 'react'
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ "form-name": "contact", ...this.state })
       })
-        .then(() => alert("Success!"))
+        .then(() => this.props.toggleSubmit())
         .catch(error => alert(error));
 
       e.preventDefault();
@@ -31,6 +31,7 @@ import React from 'react'
     render() {
       const { email } = this.state;
       return (
+          <div className="content">
         <form className="showMe" name="contact" netlify netlify-honeypot="bot-field" hidden onSubmit={this.handleSubmit}>
              <input type="hidden" name="form-name" value="contact" />
           <p>
@@ -40,6 +41,7 @@ import React from 'react'
             <button type="submit">s u b m i t</button>
           </p>
         </form>
+        </div>
       );
     }
   }
