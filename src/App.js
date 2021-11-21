@@ -8,7 +8,7 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
-      <video playsinline preload="auto" muted autoPlay loop id="background-video">
+      <video playsInline preload="auto" muted autoPlay loop id="background-video">
         <source src={BackgroundWebM} type="video/webm" />
         <source src={BackgroundMP4} type="video/mp4" />
       </video>
