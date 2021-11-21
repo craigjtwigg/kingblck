@@ -1,9 +1,8 @@
 {
-  "main.css": "static/css/main.d2019f58.css",
-  "main.css.map": "static/css/main.d2019f58.css.map",
-  "main.js": "static/js/main.f0ab2936.js",
-  "main.js.map": "static/js/main.f0ab2936.js.map",
-  "static/media/kingblck-background.mp4": "static/media/kingblck-background.d16cbb30.mp4",
-  "static/media/kingblck-background.webm": "static/media/kingblck-background.d5a19b78.webm",
-  "static/media/kingblck-skull.png": "static/media/kingblck-skull.9f736d0c.png"
+  "main.css": "static/css/main.a1f35a3a.css",
+  "main.css.map": "static/css/main.a1f35a3a.css.map",
+  "main.js": "static/js/main.ea27a0f6.js",
+  "main.js.map": "static/js/main.ea27a0f6.js.map",
+  "static/media/kingblck-background.gif": "static/media/kingblck-background.55a055f0.gif",
+  "static/media/kingblck-skull.webp": "static/media/kingblck-skull.21614786.webp"
 }
