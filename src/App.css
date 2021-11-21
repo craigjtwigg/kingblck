@@ -56,6 +56,7 @@ input {
 
 input:focus {
   outline: solid 2px white;
+  caret-color: chartreuse;
 }
 
 button {
